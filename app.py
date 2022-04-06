@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 import pandas as pd
 
 # Custom imports 
-from pages import home, sf
+from pages import sf
 
 st.set_page_config(
      page_title="QED Finance | Finance Quite Easily Demonstrated",
