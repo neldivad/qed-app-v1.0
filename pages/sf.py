@@ -37,7 +37,7 @@ def sf_fundamentals():
 
     col1, col2, col3 = st.columns([1,1,1]) 
     with col1:
-        start_date = st.selectbox('Start date', [*range(current_year, 2000, -1)])
+        start_date = st.selectbox('Start date', [*range(current_year-1, 2000, -1)])
     with col2:
         end_date   = st.selectbox('End date', [*range(current_year, 2000, -1)])
     with col3:
