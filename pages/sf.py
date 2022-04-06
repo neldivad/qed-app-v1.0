@@ -17,7 +17,7 @@ def sf_fundamentals():
         pass
 
     # ##########################
-    st.image('/../assets/qed-finance.png')
+    st.image('https://raw.githubusercontent.com/neldivad/qed-app-v1.0/main/assets/qed-finance.png')
     st.header('SimFin Fundamentals')
     st.subheader('Fundamental data')
 
