@@ -3,5 +3,4 @@ streamlit_player
 streamlit-aggrid
 streamlit_option_menu
 
-pandas==1.4.1
 plotly==4.14.3
