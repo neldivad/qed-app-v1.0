@@ -18,7 +18,6 @@ st.set_page_config(
 def main():
     # Removing and add pages
     pages = {
-        "Home": homepage,
         'Fundamentals': sf_fundamental,
     }
 
@@ -53,9 +52,9 @@ def main():
         st.markdown('''<small>QED Finance</small>''', unsafe_allow_html=True)
         st.markdown('''<small>dl.eeee.nv@gmail.com</small>''', unsafe_allow_html=True)
 
-def homepage():
-    home.home()
-
+#-------------------
+# Page functions
+#--------------------
 def sf_fundamental():
     sf.sf_fundamentals()
 
