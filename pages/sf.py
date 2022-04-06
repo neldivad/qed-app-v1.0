@@ -70,7 +70,7 @@ def sf_fundamentals():
                     year_end= end_date,
                 )
                 sub_df = subset_fundamental(df)
-                AgGrid(df)
+                # AgGrid(df)
                 AgGrid(sub_df)
 
             # Select column and make chart
@@ -105,7 +105,7 @@ def sf_fundamentals():
                     year_end= end_date,
                 )
                 sub_prices = subset_prices(prices)
-                AgGrid(prices)
+                # AgGrid(prices)
                 AgGrid(sub_prices)
 
             base_price_col = ['Ticker', 'Date', 'High', 'Low', 'Adj. Close', 'Volume']
