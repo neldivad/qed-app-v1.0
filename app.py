@@ -24,7 +24,8 @@ hide_st_style = """
             """
 def main():
     st.markdown(hide_st_style, unsafe_allow_html=True)
-    st.image('./assets/qed-finance.png')
+    col1, col2, col3 = st.columns([0.7,1,0.7])
+    col2.image('./assets/qed-finance.png')
     # Removing and add pages
     pages = {
         'Fundamentals': sf_fundamental,
