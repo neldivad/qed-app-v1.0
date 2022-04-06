@@ -53,12 +53,13 @@ def main():
     with st.sidebar.expander('About this app'):
         st.markdown("""
         **Sponsored by:** Zer Platform Ltd
+        
         **Data provider**: [Simfin](https://simfin.com/)
         """)
         
 
     with st.sidebar:
-        st.markdown('''[Make a donation](https://buy.stripe.com/dR6dSreL929i9bycMO)''')
+        st.markdown('''Enjoying the app? [Make a donation](https://buy.stripe.com/dR6dSreL929i9bycMO)''')
         st.markdown('''<small>QED Finance</small>''', unsafe_allow_html=True)
         st.markdown('''<small>dl.eeee.nv@gmail.com</small>''', unsafe_allow_html=True)
 
