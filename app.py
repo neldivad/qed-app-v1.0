@@ -15,15 +15,8 @@ st.set_page_config(
      initial_sidebar_state="expanded",
  )
 
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
+
 def main():
-    st.markdown(hide_st_style, unsafe_allow_html=True)
     col1, col2, col3 = st.columns([0.7,1,0.7])
     col2.image('./assets/qed-finance.png')
     # Removing and add pages
